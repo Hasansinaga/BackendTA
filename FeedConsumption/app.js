@@ -50,7 +50,7 @@ app.use(
   })
 );
 
-// Middleware untuk parsing JSON dan URL-encoded data
+// Middleware untuk parsing JSON dan URL-encoded datah
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
